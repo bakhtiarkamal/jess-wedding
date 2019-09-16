@@ -664,10 +664,10 @@ a:hover {
     font-weight: 400;
     position: relative;
     display: block;
-    width: 60rem;
+    width: 100rem;
     line-height: 1em;
     margin-top: 9rem;
-    left: -5rem;
+    left: 10rem;
     font-family: "freight-display-pro", freight, serif;
     z-index: 24;
 }
