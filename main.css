@@ -379,6 +379,7 @@ a:hover {
   top: 50%;
   right: 15%;
   transform: translateY(-60%);
+  text-shadow: 2px 2px #111111;
 }
 
 .smaller {

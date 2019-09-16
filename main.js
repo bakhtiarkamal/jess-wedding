@@ -73,7 +73,7 @@ $(window).load(function() {
     $(".loader").css("display", "none");
     $("#siteContainer").css("opacity", "1");
     $("#txtCon").addClass("animatedLong fadeInUp");
-    //$("#hashtag").addClass("animated fadeIn");
+    $("#hashtag").addClass("animated fadeIn");
     //$("#Monogram").addClass("animated fadeIn");
     $("#page1BG").addClass("animatedLong fadeIn");
 });
