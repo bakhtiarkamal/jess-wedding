@@ -376,8 +376,9 @@ a:hover {
   font-weight: normal;
   letter-spacing: 0.015em;
   position: relative;
-  top: 35%;
-  transform: translateY(-40%);
+  top: 50%;
+  right: 15%;
+  transform: translateY(-60%);
 }
 
 .smaller {
@@ -1366,7 +1367,7 @@ a:hover {
 
 @media screen and (max-width: 860px) {
   #mainTxt {
-    font-size: calc((16vw + 16vh) / 2);
+    font-size: calc((12vw + 12vh) / 2);
   }
   .smaller {
     font-size: 14px;
