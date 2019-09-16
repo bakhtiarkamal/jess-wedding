@@ -378,8 +378,8 @@ a:hover {
     font-weight: normal;
     letter-spacing: 0.015em;
     position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 35%;
+    transform: translateY(-40%);
 }
 
 .smaller {
