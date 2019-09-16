@@ -645,11 +645,11 @@ a:hover {
   color: #111111;
   letter-spacing: 1.5px;
   line-height: 1.5em;
-  -webkit-column-count: 2;
+  -webkit-column-count: 1;
   /* Chrome, Safari, Opera */
-  -moz-column-count: 2;
+  -moz-column-count: 1;
   /* Firefox */
-  column-count: 2;
+  column-count: 1;
   -webkit-column-gap: 72px;
   -moz-column-gap: 72px;
   column-gap: 72px;
@@ -708,7 +708,7 @@ a:hover {
   position: relative;
   font-family: "Montserrat", serif;
   font-weight: 400;
-  font-size: 7.2rem;
+  font-size: 4.2rem;
   color: #111111;
   width: 100rem;
   line-height: 1.3em;
@@ -951,9 +951,9 @@ a:hover {
   width: 120rem;
   background-color: #fff;
   position: relative;
-  min-height: 100vh;
+  /* min-height: 100vh;
   padding-top: 24rem;
-  padding-bottom: 18rem;
+  padding-bottom: 18rem; */
   margin: 0 auto;
 }
 
@@ -1304,11 +1304,11 @@ a:hover {
     left: 0;
   }
   #Page3 p {
-    font-size: 54px;
+    font-size: 40px;
     width: 83.3%;
   }
   #Page4 h2 {
-    font-size: 54px;
+    font-size: 40px;
     width: 83.3%;
     margin: 0px auto 7.2rem auto;
   }
