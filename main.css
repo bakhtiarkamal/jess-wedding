@@ -1052,6 +1052,27 @@ a:hover {
   position: relative;
 }
 
+#page7 p.nocolumn {
+  width: 100rem;
+  font-size: 2.4rem;
+  font-family: "Montserrat", serif;
+  color: #111111;
+  letter-spacing: 1.5px;
+  line-height: 1.5em;
+  -webkit-column-count: 1 !important;
+  /* Chrome, Safari, Opera */
+  -moz-column-count: 2;
+  /* Firefox */
+  column-count: 2;
+  -webkit-column-gap: 72px;
+  -moz-column-gap: 72px;
+  column-gap: 72px;
+  margin: 3.6rem 10rem;
+  z-index: 99;
+  display: block;
+  position: relative;
+}
+
 #Page7 .headQuote {
   font-size: 7.2rem;
   font-weight: 400;
@@ -1080,6 +1101,20 @@ a:hover {
   z-index: 99;
 }
 
+#stretchDesc {
+  display: block;
+  position: relative;
+  float: left;
+  font-size: 2.4rem;
+  font-family: "Montserrat", sans-serif;
+  color: #111111;
+  letter-spacing: 1.5px;
+  line-height: 1.5em;
+  text-align: left;
+  margin: 12rem 3.6rem 3.6rem 3.6rem;
+  z-index: 99;
+}
+
 #story {
   width: 50%;
   float: left;
@@ -1093,14 +1128,14 @@ a:hover {
 }
 
 #img04 {
-  background: url("images/image-6.jpg") center center no-repeat;
+  background: url("images/new/our_story_1.png") center center no-repeat;
   background-size: cover;
   margin: 5.4rem 0.5rem 3.6rem 3.6rem;
   background-color: #ffffff;
 }
 
 #img05 {
-  background: url("images/image-8.jpg") center center no-repeat;
+  background: url("images/new/our_story_2.png") center center no-repeat;
   background-size: cover;
   margin: 0rem 3.6rem 9rem 0.5rem;
   background-color: #ffffff;
@@ -1120,10 +1155,24 @@ a:hover {
   background-color: #ffffff;
 }
 
+#img09 {
+  background: url("images/new/gift_2.png") center center no-repeat;
+  background-size: cover;
+  margin: 5.4rem 0.5rem 3.6rem 3.6rem;
+  background-color: #ffffff;
+}
+
+#img10 {
+  background: url("images/new/gift_1.png") center center no-repeat;
+  background-size: cover;
+  margin: 0rem 0.5rem 9rem 3.6rem;
+  background-color: #ffffff;
+}
+
 #img02 {
   width: 112.8rem;
-  height: 63.3rem;
-  background: url("images/img-02.jpg") center center no-repeat;
+  height: 71.3rem;
+  background: url("images/new/wedding.png") center center no-repeat;
   background-size: cover;
   position: relative;
   z-index: 1;
@@ -1214,6 +1263,8 @@ a:hover {
   #img04,
   #img05,
   #img06,
+  #img09,
+  #img10,
   #img07 {
     margin: 0rem 0rem 3.6rem 0rem;
   }
@@ -1257,7 +1308,7 @@ a:hover {
   }
   #img02 {
     width: 100%;
-    height: 50vw;
+    height: 65vw;
     margin: 3.6rem auto 7.2rem auto;
   }
   #img03 {
