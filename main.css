@@ -141,6 +141,44 @@ a {
   color: #72b1c8;
 }
 
+.button {
+  font-size: 0.5em;
+  display: inline-block;
+  padding: 0.05em 0.9em;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 2em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-weight: 300;
+  color: #ffffff;
+  background-color: #f14eb7;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.button2 {
+  font-size: 0.5em;
+  display: inline-block;
+  padding: 0.05em 0.9em;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 2em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-weight: 300;
+  color: #ffffff;
+  background-color: #237ca5;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+a.button:hover {
+  border-color: #4095c6;
+}
+
+a.button:active {
+  background-color: #4095c6;
+}
+
 a:hover {
   text-decoration: none;
 }
@@ -1003,6 +1041,7 @@ a:hover {
   letter-spacing: 0.5rem;
   line-height: 1em;
   margin-top: 5.4rem;
+  margin-bottom: 5.4rem;
 }
 
 #Page7 span {
@@ -1052,24 +1091,18 @@ a:hover {
   position: relative;
 }
 
-#page7 p.nocolumn {
-  width: 100rem;
-  font-size: 2.4rem;
-  font-family: "Montserrat", serif;
-  color: #111111;
-  letter-spacing: 1.5px;
-  line-height: 1.5em;
-  -webkit-column-count: 1 !important;
-  /* Chrome, Safari, Opera */
-  -moz-column-count: 2;
-  /* Firefox */
-  column-count: 2;
-  -webkit-column-gap: 72px;
-  -moz-column-gap: 72px;
-  column-gap: 72px;
-  margin: 3.6rem 10rem;
-  z-index: 99;
+#page7 h2.becenter {
   display: block;
+  width: 116rem;
+  text-align: center;
+  font-family: "Montserrat", serif;
+  font-weight: 700;
+  font-size: 7.2rem;
+  letter-spacing: 1px;
+  color: #111111;
+  line-height: 1em;
+  margin-bottom: 7.2rem;
+  z-index: 99;
   position: relative;
 }
 
@@ -1461,5 +1494,17 @@ a:hover {
   }
   #D5 {
     display: none;
+  }
+
+  a.button {
+    display: block;
+    margin: 0.2em auto;
+  }
+}
+
+@media all and (max-width: 30em) {
+  a.button {
+    display: block;
+    margin: 0.2em auto;
   }
 }
