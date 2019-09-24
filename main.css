@@ -1450,7 +1450,11 @@ a:hover {
         margin: 3.6rem 8.3% 3.6rem 8.3%;
     }
     #Page7 .partyLeft {
-        margin-left: 0rem;
+        margin-left: 3rem;
+        margin-right: 0rem;
+    }
+    #Page7 .partyRight {
+        margin-left: 3rem;
         margin-right: 0rem;
     }
     #Page7 .partyList {
