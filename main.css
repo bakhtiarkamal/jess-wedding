@@ -668,7 +668,7 @@ a:hover {
     text-align: left;
     color: #111111;
     font-weight: 900;
-    margin-bottom: 7.2rem;
+    /* margin-bottom: 7.2rem; */
     line-height: 1.5em;
     width: 120rem;
     letter-spacing: 0.5em;
@@ -1039,10 +1039,10 @@ a:hover {
     text-align: center;
     font-size: 1.2rem;
     font-family: "Montserrat", sans-serif;
-    font-weight: 700;
+    /* font-weight: 700; */
     letter-spacing: 0.5rem;
     line-height: 1em;
-    margin-top: 5.4rem;
+    /* margin-top: 5.4rem; */
     margin-bottom: 5.4rem;
 }
 
@@ -1084,6 +1084,27 @@ a:hover {
     -moz-column-count: 2;
     /* Firefox */
     column-count: 2;
+    -webkit-column-gap: 72px;
+    -moz-column-gap: 72px;
+    column-gap: 72px;
+    margin: 3.6rem 10rem;
+    z-index: 99;
+    display: block;
+    position: relative;
+}
+
+#Page7 p.details {
+    width: 100rem;
+    font-size: 2.4rem;
+    font-family: "Montserrat", serif;
+    color: #111111;
+    letter-spacing: 1.5px;
+    line-height: 1.5em;
+    -webkit-column-count: 2;
+    /* Chrome, Safari, Opera */
+    -moz-column-count: 2;
+    /* Firefox */
+    column-count: 1;
     -webkit-column-gap: 72px;
     -moz-column-gap: 72px;
     column-gap: 72px;
@@ -1450,11 +1471,11 @@ a:hover {
         margin: 3.6rem 8.3% 3.6rem 8.3%;
     }
     #Page7 .partyLeft {
-        margin-left: 3rem;
+        margin-left: 2rem;
         margin-right: 0rem;
     }
     #Page7 .partyRight {
-        margin-left: 3rem;
+        margin-left: 2rem;
         margin-right: 0rem;
     }
     #Page7 .partyList {
