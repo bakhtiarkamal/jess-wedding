@@ -1471,11 +1471,11 @@ a:hover {
         margin: 3.6rem 8.3% 3.6rem 8.3%;
     }
     #Page7 .partyLeft {
-        margin-left: 2rem;
+        margin-left: 0rem;
         margin-right: 0rem;
     }
     #Page7 .partyRight {
-        margin-left: 2rem;
+        margin-left: 0rem;
         margin-right: 0rem;
     }
     #Page7 .partyList {
@@ -1537,20 +1537,80 @@ a:hover {
         margin: 0.2em auto;
     }
     #Page7 .partyList .becenter {
-        /* display: block;
-      width: 55.9rem;
-      float: left;
-      text-align: center;
-      font-size: 1.2rem;
-      font-family: "Montserrat", sans-serif;
-      font-weight: 700;
-      letter-spacing: 0.5rem;
-      line-height: 1em;
-      margin-top: 5.4rem;
-      margin-bottom: 5.4rem; */
         font-size: 40px;
-        width: 83.3%;
-        margin: 0px 10px 7.2rem auto;
+        width: 50%;
+        margin-left: 14.1rem;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    #mainTxt {
+        font-size: calc((12vw + 12vh) / 2);
+    }
+    .smaller {
+        font-size: 14px;
+    }
+    #page1BG {
+        background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        -webkit-background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 60% 50% !important;
+        background-attachment: scroll;
+    }
+    #Page4 h2 {
+        text-align: left;
+    }
+    #mobileBG {
+        display: block;
+        z-index: 1;
+        overflow: hidden;
+        position: absolute;
+        left: calc(-50% - 25vw);
+    }
+    #mobileBG img {
+        height: 100%;
+        width: auto;
+    }
+    #D1 {
+        display: none;
+    }
+    #D2 {
+        display: none;
+    }
+    #D3 {
+        display: none;
+    }
+    #D4 {
+        display: none;
+    }
+    #D5 {
+        display: none;
+    }
+    a.button {
+        display: block;
+        margin: 0.2em auto;
+    }
+    #Page7 .partyLeft {
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+    #Page7 .partyRight {
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+    #Page7 .partyList {
+        width: 100%;
+    }
+    #Page7 .partyCenter {
+        display: block;
+        width: 83%;
+    }
+    #Page7 .partyList .becenter {
+        font-size: 40px;
+        width: 50%;
+        /* margin-left: 10.1rem; */
     }
 }
 
