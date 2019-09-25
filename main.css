@@ -152,7 +152,7 @@ a {
     text-decoration: none;
     font-weight: 300;
     color: #ffffff;
-    background-color: #4873a5;
+    background-color: rgba(72, 115, 165, 0.75);
     text-align: center;
     transition: all 0.2s;
 }
