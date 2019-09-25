@@ -629,7 +629,7 @@ a:hover {
     width: 120rem;
     background-color: #fff;
     position: relative;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     /* padding-top: 24rem; */
     padding-bottom: 18rem;
     margin: 0 auto;
@@ -718,7 +718,7 @@ a:hover {
     width: 100%;
     /*background-color:rgba(141,191,201,.25);*/
     position: relative;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     /* padding-top: 24rem; */
     padding-bottom: 18rem;
 }
